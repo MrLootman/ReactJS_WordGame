@@ -1,0 +1,24 @@
+#test-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  gap: 24px;
+}
+
+#game-grid {
+  justify-self: flex-start;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid black;
+}
+
+.square-box {
+  border: 1px solid black;
+  min-height: 48px;
+  width: 48px;
+  padding: 12px 0;
+  text-align: center;
+  align-self: center;
+}

@@ -1,0 +1,11 @@
+main {
+  height: 80vh;
+}
+
+.hidden-word {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  gap: 1rem;
+  padding: 2rem;
+}
